@@ -63,7 +63,7 @@ for no in subs_len_list:
     if no > greatest_no:
         greatest_no = no
 print("The Length of the longest substring from the given input string "+"\""+input+"\"" +" is",greatest_no)
-print("Substring list with non repeating characters:"+ "\n",set(subtr_list))
+print("Substring set with non repeating characters:"+ "\n",set(subtr_list))
 
           
 
