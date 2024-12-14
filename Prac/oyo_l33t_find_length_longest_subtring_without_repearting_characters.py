@@ -12,7 +12,7 @@ Step 3 - make a while loop which checks if letter by r pointer is  if it is char
 
          after that come out of the loop once letter pointed by r pointer is no longer in  character set and 
            add the letter by the r pointer to the character set 
-         and calculate maxlength by taking max ( maxlength, r-l)
+         and calculate maxlength by taking max ( maxlength, r-l+1)
 '''
 
 def calculate_length_of_longest_substring_without_repeating_characters(input):
